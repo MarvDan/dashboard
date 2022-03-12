@@ -1,0 +1,45 @@
+:toc: macro
+
+ifdef::env-github[]
+:tip-caption: :bulb:
+:note-caption: :information_source:
+:important-caption: :heavy_exclamation_mark:
+:caution-caption: :fire:
+:warning-caption: :warning:
+endif::[]
+
+toc::[]
+:idprefix:
+:idseparator: -
+:reproducible:
+:source-highlighter: rouge
+
+
+==Settings
+
+== Account settings
+
+Here you get a screen that allows you to create a profile. This is the same screen which you see during the initial setup of the dashboard. It is completely optional.
+
+.Account settings
+image::images/settings_page/account-settings.png["Account settings", width="600", link="images/settings_page/account-settings.png"]
+
+Fill the data and click on *Save* if you want to create the profile.
+
+== Installed versions
+
+The installed versions subsection allows you to manage the different versions of devonfw-ide available.
+
+.Installed versions
+image::images/settings_page/installed-versions.png["Installed versions", width="600", link="images/settings_page/installed-versions.png"]
+
+* It lists the devonfw-ide you have installed in your system, along with the ones available for download from our maven repository
+* If you want to install specific version, you can search it here and *DOWNLOAD* it
+* To check the release notes for a version, simply click on *Consolidated list of features*
+* For the installed versions:
+** Hovering over the eye icon shows you the path for the devonfw-ide in a tooltip
+** You can view it in your system explorer by clicking the eye icon
+** You can update its settings and softwares by clicking on *UPDATE*
+** You can also *UNINSTALL* an installed version, after which the dashboard will no longer keep track of the projects and IDEs belonging to that devonfw-ide
+
+

@@ -1,0 +1,44 @@
+:toc: macro
+
+ifdef::env-github[]
+:tip-caption: :bulb:
+:note-caption: :information_source:
+:important-caption: :heavy_exclamation_mark:
+:caution-caption: :fire:
+:warning-caption: :warning:
+endif::[]
+
+toc::[]
+:idprefix:
+:idseparator: -
+:reproducible:
+:source-highlighter: rouge
+:listing-caption: Listing
+
+==Landing page
+
+This is the entry point of the devonfw dashboard. Click on *GET STARTED NOW* to start using it.
+
+.Get Started
+image::images/landing_page/get_started.png["Get Started", width="600", link="images/landing_page/get_started.png"]
+
+== Your devonfw distributions
+
+The first time you open the application you will get a dialog with all the devonfw distributions found on your machine. Click on *OK GOT IT* to continue.
+
+.devon-ide distributions
+image::images/landing_page/devonfw_distributions_dialog.png["devon-ide distributions", width="450", link="images/landing_page/devonfw_distributions_dialog.png"]
+
+== Profile form
+
+Here you will find a screen that allows you to create a profile. This is just for the purpose of customizing your dashboard.
+
+.Profile
+image::images/landing_page/profile_form.png["Profile", width="600", link="images/landing_page/profile_form.png"]
+
+Fill the data and click on *CREATE MY PROFILE* if you want to create the profile at the moment or click *WILL DO IT LATER* to skip the creation.
+
+
+
+
+
