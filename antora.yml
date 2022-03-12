@@ -1,0 +1,6 @@
+name: dashboard
+title: Dashboard
+version: '1.0'
+start_page: dashboard::home.adoc
+nav:
+- modules/ROOT/nav.adoc
