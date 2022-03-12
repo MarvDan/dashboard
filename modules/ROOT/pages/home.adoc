@@ -15,7 +15,7 @@ toc::[]
 :source-highlighter: rouge
 :listing-caption: Listing
 
-==dashboard
+== dashboard
 
 Welcome to dashboard! This document will guide you in using the dashboard as per your needs. But before proceeding to *how*, let us understand *what* is it and *why* has it been developed.
 
